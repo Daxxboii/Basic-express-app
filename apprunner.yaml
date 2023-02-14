@@ -3,7 +3,7 @@ runtime: nodejs12
 
 build:
   commands:
-    build:
+    pre-build:
       - npm install
 
 run:
